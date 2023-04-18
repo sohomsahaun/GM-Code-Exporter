@@ -1,0 +1,35 @@
+/// Object : oObject | Create_0
+hspd = 1;
+vspd = 2;
+
+/// Object : oObject | Step_0
+// Dummy step event
+
+/// Object : oObject | Step_1
+can_someone_explain_how_collision_code_works(hspd, vspd);
+
+/// Object : oObject2 | Alarm_0
+// Dummy alarm event
+
+/// Object : oObject2 | Create_0
+alarm[0] = 1;
+
+/// Object : oObject2 | KeyRelease_27
+game_end();
+
+/// Object : oObject2 | Step_0
+if (keyboard_check_pressed(vk_enter)) {
+	thank_you();	
+}
+
+/// Script : scrScript
+function can_someone_explain_how_collision_code_works(_hspd, _vspd) {
+	return "Yes";	
+}
+
+/// Script : scrScript2
+function thank_you() {
+	show_message("thank you!");
+	thank_you();
+}
+

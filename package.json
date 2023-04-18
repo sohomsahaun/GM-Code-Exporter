@@ -1,0 +1,17 @@
+{
+  "name": "gm-code-exporter",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/sohomsahaun/GM-Code-Exporter.git"
+  },
+  "version": "0.0.1",
+  "description": "A tool to export GameMaker project code as text",
+  "main": "index.js",
+  "keywords": ["GameMaker"],
+  "author": "Sohom Sahaun",
+  "license": "MIT",
+  "dependencies": {
+    "json5": "^2.2.3",
+    "yargs": "^17.7.1"
+  }
+}
