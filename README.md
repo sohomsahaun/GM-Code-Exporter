@@ -1,5 +1,5 @@
 # GM Code Exporter
-GM Code Exporter exports code from `.gml` files in a GameMaker project.
+GM Code Exporter exports code from objects and scripts in a GameMaker project to a text file.
 
 It is very quickly put together without much polish - but it does the job!
 
