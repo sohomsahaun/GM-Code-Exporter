@@ -7,6 +7,11 @@ It is very quickly put together without much polish - but it does the job!
 
 You need to have [Node.js](https://nodejs.org/) installed to use this tool from the CLI.
 
+If you are using it for the first time, you need to install the dependecies using:
+```shell
+npm install;
+```
+
 Run the following command:
 ```shell
 node index.js --obj --scr --yyp <yyp_path_here>
