@@ -15,7 +15,7 @@ npm install
 
 Run the following command:
 ```shell
-node index.js --obj --scr --yyp <yyp_path_here>
+node index.js --obj --scr --yyp "<yyp_path_here>"
 ```
 
 | Argument | Description |
